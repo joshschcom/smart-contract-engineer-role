@@ -1,0 +1,14 @@
+node_modules
+contracts/node_modules
+package-lock.json
+yarn.lock
+contracts/package-lock.json
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+.next
+.env
+.env.local
+*.log
+.git
+assets

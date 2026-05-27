@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"   # Next.js UI
+      - "8545:8545"   # Hardhat RPC (for MetaMask)
+    environment:
+      - NODE_ENV=development
